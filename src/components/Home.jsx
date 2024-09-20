@@ -1,17 +1,17 @@
 import React, { useEffect } from "react";
-import Video from "../components/images/video.mp4";
-import doctors from "../Components/images/doctors-day.png";
-import blood from "../Components/images/blood-drop.png";
+import Video from "../images/video.mp4"
+import doctors from "../images/doctors-day.png";
+import blood from "../images/blood-drop.png";
 
-import Header from "./pages/Header";
-import Footer from "./Footer";
+import Header from '../pages/Header'
+import Footer from "../components/Footer"
 import Marquee from "react-fast-marquee"
 import { TypeAnimation } from "react-type-animation";
 import { Link, useNavigate } from "react-router-dom";
-import Irise from "./images/Irise.png"
-import Rise from "./images/Rise.png"
-import  ministry from "./images/ministry.png"
-import  who  from "./images/who.png"
+import Irise from "../images/Irise.png"
+import Rise from "../images/Rise.png"
+import  ministry from "../images/ministry.png"
+import  who  from "../images/who.png"
 
 function Home() {
   const navigate = useNavigate();

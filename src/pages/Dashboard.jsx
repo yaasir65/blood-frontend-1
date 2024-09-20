@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Sidebar from '../Sidebar';
+import Sidebar from "../components/Sidebar"
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
@@ -58,7 +58,7 @@ function Dashboard() {
         {/* User Information (Name and Profile Picture) */}
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold text-red-700">
-            Welcome, <span className='text-blue-900'>{admin.username}!</span> as an Admin
+            {/* Welcome, <span className='text-blue-900'>{admin.username}!</span> as an Admin */}
           </h1>
         </div>
 

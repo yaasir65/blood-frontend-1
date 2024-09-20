@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Import the CSS for toast notifications
-import Header from './pages/Header';
+import Header from "../pages/Header"
 
 function BloodRegister() {
   const [name, setName] = useState("");
