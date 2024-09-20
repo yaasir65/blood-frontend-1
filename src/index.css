@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*  */
+  
+.im{
+
+    background-image: url(./components//images/bloodtest.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    position: fixed;
+    top: 80px;
+    z-index: -10;
+}
+
+.b{
+
+    z-index: 10;  
+}
+  
